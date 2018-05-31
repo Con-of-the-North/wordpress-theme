@@ -39,6 +39,24 @@ function cotn_widget_init() {
 		'before_title' => '<h2 class="widget-title">',
 		'after_title' => '</h2>'
 	));
+	register_sidebar( array( 
+		'name' => __('Home Left Section', 'cotn'),
+		'id' => 'home-left',
+		'description' => __('Widgets added here will appear in left section of the home page', 'cotn'),
+		'before_widget' => '<section id ="%1s" class="widget %2s">',
+		'after_widget' => '</section>',
+		'before_title' => '<h2 class="widget-title">',
+		'after_title' => '</h2>'
+	));
+	register_sidebar( array( 
+		'name' => __('Home Right Section', 'cotn'),
+		'id' => 'home-right',
+		'description' => __('Widgets added here will appear in right section of the home page', 'cotn'),
+		'before_widget' => '<section id ="%1s" class="widget %2s">',
+		'after_widget' => '</section>',
+		'before_title' => '<h2 class="widget-title">',
+		'after_title' => '</h2>'
+	));
 }
 add_action('widgets_init', 'cotn_widget_init');
 

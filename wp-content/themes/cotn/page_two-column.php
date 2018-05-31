@@ -5,10 +5,10 @@
 
 
 <div class="main-content-width-wrapper">
-        <div class="two-column-entry">
-            <h1><?php echo get_the_title()  ?></h1>
+        <div class="two-column-template-wrapper">
+            <!-- <h1><?php echo get_the_title()  ?></h1> -->
         
-            <main class="main-content">
+            <main class="two-column-content">
               <?php
                 // Start the loop
                 if (have_posts()) :

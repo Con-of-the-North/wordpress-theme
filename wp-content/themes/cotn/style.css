@@ -3075,6 +3075,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   background-color: #ee6e73;
+  clear: both;
 }
 
 .page-footer .footer-copyright {
@@ -9376,6 +9377,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 Cotn Design 
 */
 
+.main-content-width-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
 
 .fixed-menu-bar {
     position: fixed;
@@ -9410,6 +9416,21 @@ Cotn Design
 
 .board-game {
     width: 100%;
+    max-height: 550px;
+}
+
+.title-wrapper {
+    position: absolute;
+    top: 150px;
+    right: 5px;
+    background-color: white;
+    height: 300px;
+    padding: 25px;
+    margin: 25px;
+    border: 1px solid;
+    border-radius: 2px;
+    width: auto;
+    border-color: white;
 }
 
 .title-text {
@@ -9615,8 +9636,30 @@ Cotn Design
     color: #00b8b8;
 }
 
-.current-menu-item > a {
+.menu-header-menu-container .current-menu-item > a, 
+.menu-header-menu-container .current_page_parent > a { 
 	border-bottom: 5px solid #ffffff;
+}
+
+.main-footer-navigation a {
+	color: #ffffff;
+}
+
+/** 
+*  Sidebar 
+*/
+
+.sidebar {
+    background: #5da87b;
+    float: right;
+    width: 30%;
+    padding: 1em;
+    color: #fff;
+    margin-top: 8em;
+}
+
+.sidebar .sidebar-heading, .sidebar .sidebar-heading {
+    color: #fff;
 }
 
 /** 
@@ -9627,4 +9670,36 @@ Cotn Design
     float: left;
     width: 55%;
     margin-right: 1em;
+    margin-top: 5em;
+}
+
+/* Home Page */
+.home-left-section,
+.home-right-section {
+    font-size: 1.2em;
+    line-height: 1.8;
+    width: 48%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.home-left-section {
+    background-size: cover;
+    margin-right: 1em;
+    float: left;
+    background-color: #92A1C4;
+    color: white;
+}
+
+.home-right-section {
+    background-size: cover;
+    float: right;
+    background-color: #83B8B8;
+    color: white;
+}
+
+.home-right-section p, .home-left-section p {
+    max-width: none;
 }
