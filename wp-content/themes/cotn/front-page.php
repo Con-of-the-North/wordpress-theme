@@ -6,10 +6,11 @@
 <main class="main-content">
     <div class="main-title">
         <img src="<?php bloginfo('template_url') ?>/images/cotn-smaller.png" alt="Board Game" class="board-game">
-        <span class="title-wrapper center-text">
+        <div class="title-wrapper center-text">
+            <img src="<?php bloginfo('template_url') ?>/images/new_logo_2019.svg" alt="Compass Rose" class="title-image">
             <span class="title-text">Twin Cities Longest Running Games Convention.</span>
                 <div>
-                    <p>February 16-18, 2018<br>
+                    <p>February 15-17, 2019<br>
                     Friday Noon to 2 AM<br>
                     Saturday 8 AM to 2 AM<br>
                     Sunday 8 AM to 10 PM<br>
@@ -18,10 +19,12 @@
             <div class="center-text">
                 <div class="register-now btn">Register Now</div>
             </div>
-        </span>
+        </div>
     </div>
-    <?php get_sidebar('home-left'); ?>
-    <?php get_sidebar('home-right'); ?>
+    <div class="home-column-wrapper">
+        <?php get_sidebar('home-left'); ?>
+        <?php get_sidebar('home-right'); ?>
+    </div>
 </main>
 
 <?php get_footer(); ?>

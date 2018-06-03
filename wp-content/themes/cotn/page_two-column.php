@@ -6,7 +6,7 @@
 
 <div class="main-content-width-wrapper">
         <div class="two-column-template-wrapper">
-            <!-- <h1><?php echo get_the_title()  ?></h1> -->
+            <h1 class-"page-title"><?php echo get_the_title()  ?></h1>
         
             <main class="two-column-content">
               <?php

@@ -12,8 +12,7 @@
 <body>
     <header>
         <div class="fixed-menu-bar register-wrapper">
-            <img src="<?php bloginfo('template_url') ?>/images/compass.png" alt="Compass Rose" class="compass-rose">
-            <span class="header-title">Con of the North</span>
+            <img src="<?php bloginfo('template_url') ?>/images/large_logo.svg" alt="Compass Rose" class="compass-rose">
             <?php
                 wp_nav_menu($arg = array (
                     'menu_class' => 'main-navigation',
