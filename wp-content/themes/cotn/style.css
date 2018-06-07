@@ -9261,26 +9261,6 @@ Cotn Design
     max-height: 550px;
 }
 
-.title-wrapper {
-    position: absolute;
-    top: 150px;
-    right: 5px;
-    background-color: white;
-    height: 425px;
-    padding: 25px;
-    margin: 25px;
-    border: 1px solid;
-    border-radius: 2px;
-    width: auto;
-    border-color: white;
-}
-
-.title-wrapper .title-image {
-    height: 200px;
-    display: block;
-    margin: auto;
-}
-
 .title-text {
     font-size: 24px;
     font-weight: bold;
@@ -9521,6 +9501,49 @@ Cotn Design
 }
 
 /* Home Page */
+.main-title {
+  position: relative;
+}
+
+.main-title-wrapper {
+  float: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+ }
+
+.main-title-left {
+  float: right;
+  padding: 25px;
+  width: 640px; /*can be in percentage also.*/
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.main-title-left-content {
+    text-align: center;
+    color: black;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: white;
+    height: 100%;
+}
+
+.main-title-wrapper .title-image {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
 .home-column-wrapper {
    overflow: hidden;
 }
