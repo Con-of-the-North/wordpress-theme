@@ -13,15 +13,18 @@
     <header>
         <div class="fixed-menu-bar register-wrapper">
             <img src="<?php bloginfo('template_url') ?>/images/large_logo.gif" alt="Compass Rose" class="compass-rose">
-            <?php
-                wp_nav_menu($arg = array (
-                    'menu_class' => 'main-navigation',
-                    'theme_location' => 'primary',
-                    'container_id' => 'cotn-menu',
-                    'walker' => new CSS_Menu_Walker()
-                ));
-            ?>
-            <div class="register-now btn">Register Now</div>
+            <div id="menu-icon" class="btn">Menu</div>
+            <nav class="clearfix main-navigation-container mobile-menu">
+                <?php
+                    wp_nav_menu($arg = array (
+                        'menu_class' => 'main-navigation',
+                        'theme_location' => 'primary',
+                        'container_id' => 'cotn-menu',
+                        'walker' => new CSS_Menu_Walker()
+                    ));
+                ?>
+            </nav>
+            <a href="https://registration.conofthenorth.org" class="register-now btn">Register Now</a>
         </div>
     </header>
 

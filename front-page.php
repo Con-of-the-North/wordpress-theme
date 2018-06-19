@@ -5,6 +5,7 @@
 
 <main class="main-content">
     <div class="main-title">
+        <img src="<?php bloginfo('template_url') ?>/images/cotn-smaller.png" alt="Board Game" class="board-game">
         <div class="main-title-wrapper">
             <div class="main-title-left">
                 <div class="main-title-left-content">
@@ -18,12 +19,11 @@
                             Crowne Plaza Minneapolis West</p>
                         </div>
                     <div class="center-text">
-                        <div class="register-now btn">Register Now</div>
+                        <a href="https://registration.conofthenorth.org" class="register-now btn">Register Now</a>
                     </div>
                 </div>
             </div>
         </div>
-        <img src="<?php bloginfo('template_url') ?>/images/cotn-smaller.png" alt="Board Game" class="board-game">
     </div>
     <div class="home-column-wrapper">
         <?php get_sidebar('home-left'); ?>

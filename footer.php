@@ -28,7 +28,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2004-2017 Con of the North All Rights Reserved
+            © Con of the North All Rights Reserved
             </div>
           </div>
         </footer>
