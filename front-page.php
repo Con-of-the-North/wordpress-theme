@@ -5,7 +5,7 @@
 
 <main class="main-content">
     <div class="main-title">
-        <img src="<?php bloginfo('template_url') ?>/images/cotn-smaller.png" alt="Board Game" class="board-game">
+        <img src="<?php bloginfo('template_url') ?>/images/cotn-smaller.gif" alt="Board Game" class="board-game">
         <div class="main-title-wrapper">
             <div class="main-title-left">
                 <div class="main-title-left-content">

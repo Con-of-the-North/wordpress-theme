@@ -6,17 +6,24 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Con of the North</h5>
-                <div class="grey-text text-lighten-4">
-                    <p>February 16-18, 2018<br>
-                    Friday Noon to 2 AM<br>
-                    Saturday 8 AM to 2 AM<br>
-                    Sunday 8 AM to 10 PM<br>
-                    Crowne Plaza Minneapolis West</p>
+                <img src="<?php bloginfo('template_url') ?>/images/large_logo.gif" alt="Compass Rose" class="compass-rose-bottom">
+                <div class="footer-location grey-text text-lighten-4">
+                    <h4>February 15-17, 2019</h4>
+                    <h4>Friday Noon to 2 AM</h4>
+                    <h4>Saturday 8 AM to 2 AM</h4>
+                    <h4>Sunday 8 AM to 10 PM</h4>
+                    <h4>Crowne Plaza Minneapolis West</h4>
+                </div>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/groups/4957238705/">
+                    <img src="<?php bloginfo('template_url') ?>/images/flogo-Hex-RGB-MedGrey-58.svg" width="36" height="36" border="0" alt="Facebook">
+                  </a>
+                  <a href="http://twitter.com/conofthenorth/">
+                    <img src="<?php bloginfo('template_url') ?>/images/Twitter_Logo_WhiteOnBlue.svg" width="36" height="36" border="0" alt="Twitter">
+                  </a>
                 </div>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
                 <?php
                 	wp_nav_menu($arg = array (
                     	'menu_class' => 'main-footer-navigation',
